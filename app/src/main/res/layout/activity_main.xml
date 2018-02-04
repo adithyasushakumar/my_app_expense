@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ae.bluecast.my_app_expense.activities.Login_Activity"
+    android:id="@+id/image1">
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/wqs"
+            android:scaleType="fitXY"/>
+
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="Trac"
+            android:fontFamily="serif"
+            android:fontFeatureSettings="@string/Tracxpenser"
+            android:textColor="#f7f9f8"
+            android:layout_marginLeft="79dp"
+            android:textSize="25dp"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Xpenser"
+        android:fontFamily="serif"
+        android:fontFeatureSettings="@string/Tracxpenser"
+        android:textColor="#f7f9f8"
+     android:layout_marginLeft="210dp"
+        android:textSize="25dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/lin2"
+        android:paddingRight="20dp"
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Username"-->
+            <!--android:paddingTop="20dp"-->
+            <!--android:layout_marginLeft="5dp"-->
+            <!--android:textColor="#f7f3f3"-->
+            <!--android:id="@+id/textView"-->
+            <!--/>-->
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/user"/>
+        <EditText
+            android:paddingRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:hint="username"
+            android:textColorHint="#979090"
+
+
+
+            />
+
+    </LinearLayout>
+    <!--<View-->
+        <!--android:layout_below="@+id/lin2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="2dp"-->
+        <!--/>-->
+    <LinearLayout
+        android:id="@+id/lin4"
+        android:paddingRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/lin2">
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Password"-->
+            <!--android:textColor="#faf9f9"-->
+            <!--android:id="@+id/textView2"-->
+            <!--android:layout_marginLeft="5dp" />-->
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="7dp"
+            android:src="@drawable/password"/>
+        <EditText
+            android:paddingRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText2"
+            android:hint="password"
+            android:textColorHint="#979090"
+
+            />
+    </LinearLayout>
+    <!--<View-->
+        <!--android:layout_below="@+id/lin4"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="2dp"-->
+        <!--/>-->
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:id="@+id/lin5"
+        android:layout_below="@id/lin4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:text="forget Password?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#f2f0f0"
+            android:id="@+id/textView8"
+            android:layout_marginLeft="50dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="120dp"
+        android:id="@+id/lin50"
+        android:layout_below="@id/lin4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:text="Or"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#f2f0f0"
+            android:id="@+id/textView80"
+            android:layout_marginLeft="166dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="40dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_below="@+id/lin6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sign in with facebook "
+        android:textColor="#f7f5f5"
+        android:background="@drawable/button_facebook"
+        android:id="@+id/oli" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="120dp"
+        android:id="@+id/lin15"
+        android:layout_below="@id/lin6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#f2f0f0"
+            android:hint="Don't have an Account Yet? "
+            android:textColorHint="#979090"
+            android:id="@+id/textView19"
+            android:layout_marginLeft="70dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="120dp"
+        android:id="@+id/lin100"
+        android:layout_below="@id/lin6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fcfbfb"
+            android:text="SIGN UP"
+            android:textStyle="bold"
+            android:id="@+id/signup"
+            android:layout_marginLeft="220dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin6"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lin5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_background"
+            android:text="Sign in"
+            android:textColor="#f1efef"
+            android:id="@+id/oul" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/trc"
+        android:rotation="30"
+        android:layout_marginLeft="120dp"
+        android:id="@+id/imageView" />
+
+
+</RelativeLayout>

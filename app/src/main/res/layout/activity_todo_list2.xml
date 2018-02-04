@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ae.bluecast.my_app_expense.activities.TodoList">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/wqs"
+        android:scaleType="fitXY"/>
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvItems"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/btnAddItem" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etNewItem"
+        android:textColorHint="#cfcece"
+        android:layout_alignTop="@+id/btnAddItem"
+        android:hint="Enter a new item"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/btnAddItem"
+        android:layout_toStartOf="@+id/btnAddItem"
+        android:layout_alignParentBottom="true" />
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+       android:src="@drawable/add"
+        android:id="@+id/btnAddItem"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="onAddItem"/>
+    <!--<ImageView-->
+        <!--android:id="@+id/btnAddItem"-->
+            <!--android:layout_weight="1"-->
+            <!--android:src="@drawable/add"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+        <!--android:onClick="onAddItem"/>-->
+</RelativeLayout>
+
+

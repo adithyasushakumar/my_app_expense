@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Tracxpenser">TRACXPENSER</string>
+    <string name="hint_date">date</string>
+    <string name="add_student">add_student</string>
+    <string name="add_university">add_university</string>
+    <string name="students">students</string>
+    <string name="universities">universities</string>
+    <string name="add_Date">add_Date</string>
+</resources>

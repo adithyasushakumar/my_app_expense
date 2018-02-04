@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="person_name_hint">person_name_hint</string>
+    <string name="person_email_hint">person_email_hint</string>
+    <string name="perosn_address_hint">person_address_hint</string>
+    <string name="person_age_hint">person_age_hint</string>
+    <string name="Tracxpenser">TRACXPENSER</string>
+    <string name="hint_date">date</string>
+    <string name="add_student">add_student</string>
+    <string name="add_university">add_university</string>
+    <string name="students">students</string>
+    <string name="universities">universities</string>
+    <string name="add_date">add_date</string>
+    <string name="add_Date">add_Date</string>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/wqs"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_marginBottom="-15dp">
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/etDate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+       android:textAlignment="center"
+        android:hint="Monday,Nov3,2015"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/edittext_background"
+        android:textColorHint="#c6c3c3"
+        />
+       <ImageView
+           android:layout_width="40dp"
+           android:layout_height="40dp"
+           android:layout_marginTop="15dp"
+           android:layout_marginLeft="20dp"
+           android:layout_marginBottom="20dp"
+           android:src="@drawable/calb"
+           />
+   </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="-15dp">
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/etTitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="  Its funny day I had.."
+        android:textAlignment="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/edittext_background"
+        android:textColorHint="#c6c3c3"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/xxx"
+            />
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/etAddPersonDetails"
+        android:layout_width="match_parent"
+        android:layout_height="440dp"
+        android:padding="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/edittext_background"
+        android:textColorHint="#c6c3c3"
+        android:hint=" Dear Dairy " />
+</RelativeLayout>
+            </LinearLayout>
