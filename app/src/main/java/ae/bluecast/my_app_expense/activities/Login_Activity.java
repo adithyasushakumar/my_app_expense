@@ -84,7 +84,7 @@ public class Login_Activity extends AppCompatActivity {
                     }
 
                 if (str_UserName.isEmpty() && str_Password.isEmpty()) {
-                    Toast.makeText(getApplicationContext(), "Please enter your login User Name and Password", Toast.LENGTH_LONG).show();
+                   // Toast.makeText(getApplicationContext(), "Please enter your login User Name and Password", Toast.LENGTH_LONG).show();
                 }
 //                else if (str_UserName.length() == 0) {
 //                    Toast.makeText(getApplicationContext(), "Please enter your User Name", Toast.LENGTH_LONG).show();
