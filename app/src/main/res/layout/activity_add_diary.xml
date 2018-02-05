@@ -75,7 +75,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginBottom="-25dp">
+            android:layout_marginBottom="-26dp">
         <TextView
             android:id="@+id/tvPersonDetailTitle"
             android:layout_width="match_parent"

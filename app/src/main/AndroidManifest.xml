@@ -23,7 +23,7 @@
         <activity android:name=".activities.TodoList" />
         <activity android:name=".activities.Diary" />
         <activity android:name=".activities.AddDiary" />
-        <activity android:name=".sample.view.activity.ExpenseDetailsActivity" />
+        <activity android:name=".sample.view.ExpenseDetailsActivity" />
         <activity android:name=".sample.view.activity.ExpenseDateActivity"></activity>
     </application>
 
