@@ -26,7 +26,7 @@ public class Calandar_Activity extends AppCompatActivity {
             public void onSelectedDayChange(CalendarView calendarView, int i, int i1, int i2) {
                 dateDisplay.setText("Date: " + i2 + " / " + i1 + " / " + i);
 
-                Toast.makeText(getApplicationContext(), "Selected Date:\n" + "Day = " + i2 + "\n" + "Month = " + i1 + "\n" + "Year = " + i, Toast.LENGTH_LONG).show();
+               Toast.makeText(getApplicationContext(), "Selected Date:\n" + "Day = " + i2 + "\n" + "Month = " + i1 + "\n" + "Year = " + i, Toast.LENGTH_LONG).show();
             }
         });
     }
